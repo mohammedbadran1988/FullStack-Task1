@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+.f_logo{
+    width: 120px;
+}
+.bg-badran{
+    background-image: linear-gradient(to right , black 70% , white);
+}
+.b_dropdown{
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.b_dropdown i{
+    color: black;
+}
+.b_dropdown i:hover{
+    color: rgba(255, 255, 255, 0.438);
+}
+.font-badran .nav-item a{
+    color: yellow;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+.font-badran .nav-item a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    border-radius: 20px;
+}
+.hr1{
+    width: 40%;
+    height: 2px;
+    border-radius: 50%;
+    background-image: linear-gradient(to left, black, red, black);
+    margin: 10px auto;
+}
+.about-badran{
+    padding: 20px 0px 30px;
+}
+.anime{
+    animation-name: beats;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes beats{
+    from{
+        transform: scale(1.1, 1.1);
+    }
+    to{
+        transform: scale(1,1);
+    }
+}
+.gallery-nav{
+    margin: 10px auto;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid red;
+    border-radius: 30px;
+}
+.gallery-nav .nav-link{
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    
+}
+.tab-pane img{
+    margin: 10px auto;
+    border: 2px solid red;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.tab-pane img:hover{
+    transform: scale(1.2, 1.2);
+}
+.badran-footer{
+    background-color: rgb(51, 26, 26);
+    color: white;
+    margin: 0px; padding: 0px;
+}
+.footer-badran-ul{
+    list-style-type: none;
+    text-align: right;
+}
+.footer-badran-ul li{
+    display: inline;
+    font-size: 40px;
+}
+.footer-badran-ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+}
+.footer-badran-ul li a:hover{
+    color: gray;
+}
